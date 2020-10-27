@@ -5,5 +5,6 @@ public class Tester{
     System.out.println(ArrayOps.sum(testArr));
     System.out.println(ArrayOps.largest(testArr));
     System.out.println(ArrayOps.sumRows(testMatrix));
+    System.out.println(ArrayOps.largestInRows(testMatrix));
   }
 }

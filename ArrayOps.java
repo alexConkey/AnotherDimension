@@ -68,6 +68,9 @@ public class ArrayOps{
     return true;
   }
   public static boolean isLocationMagic(int[][] matrix, int row, int col){
-
+    if (sumCols(matrix)[col] == sumRows(matrix)[row]) {
+      return true;
+    }
+    return false;
   }
 }

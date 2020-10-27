@@ -11,6 +11,6 @@ public class Tester{
     System.out.println(ArrayOps.sumCols(testMatrix2));
     System.out.println(ArrayOps.isRowMagic(testMatrix));
     System.out.println(ArrayOps.isColMagic(testMatrix2));
-    System.out.println(ArrayOps.isLocationMagic(testMatrix2, 2, 1));
+    System.out.println(ArrayOps.isLocationMagic(testMatrix2, 1, 0));
   }
 }
